@@ -14,7 +14,13 @@ img {
 .headerText {
 	text-align: center;
 	color: #fff;
+	text-shadow: 2px 2px #000;
+	
 
+}
+
+.top {
+	padding-top: 5%;
 }
 
 .logo {
@@ -23,6 +29,9 @@ img {
 
 }
 
+.golfer {
+	max-height: 200px;
+	}
 
 
 .picnav {
@@ -77,6 +86,10 @@ body {
 	color: black;
 	font-size: 2em;
 	
+}
+
+.weatherp {
+	margin: 0 auto;
 }
 
 /************************
@@ -220,3 +233,57 @@ Rates
 	height: 10%;
 	padding-top: 5%;
 	}
+	
+.photolinks {
+	padding-top: 20px;
+}
+
+/*********************
+TEE TIMES
+**********************/
+
+.bookhead {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.teetext {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.membertext {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.memberhead {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	margin: 0 auto;
+	padding-top:10px;
+}
+
+.memberships {
+	background: #b69a4d;
+}
+
+.mbForm{
+	display: inline-block;
+	text-align: center;
+}
+
+.mbdd {
+	max-width: 200px;
+}
+
+.dropd {
+	margin-left: 20px;
+}
