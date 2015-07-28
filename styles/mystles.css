@@ -285,5 +285,58 @@ TEE TIMES
 }
 
 .dropd {
-	margin-left: 20px;
+	margin-left:100px;
+}
+
+.memberform {
+	background-color: silver;
+}
+
+.memberlable {
+	width: 100px;
+	padding-left: 10px;
+
+}
+
+.membercheck {
+	margin-left: 100px;
+}
+
+.selecttext {
+	margin-left: 100px;
+	font-family: 'Merriweather', sans-serif;
+
+}
+
+.submittext {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	margin: 15px;
+
+}
+
+.memberbutton {
+	margin: 0px auto;
+	width: 200px;
+	margin-left: 80px;
+
+}
+
+.jrcamp {
+	
+}
+
+.lessontext {
+	
+}
+
+.protext {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+}
+
+.proshopP {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
 }

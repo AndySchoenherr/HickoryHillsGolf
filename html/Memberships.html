@@ -52,7 +52,7 @@
                     <li><a href="Rates.html">Rates</a></li>
                     <li><a href="TeeTimes.html">Tee Times</a></li>
                     <li><a href="holes.html">Course Description</a></li>
-                    <li><a href="Proshop.html">Proshop</a></li>
+                    <li><a href="Proshop.html">Pro Shop</a></li>
                     <li><a href="Memberships.html">Memberships</a></li>
                   </ul>
                   
@@ -70,7 +70,7 @@
 <body>
   <div class="container">
   <div class="row">
-    <div class="col-sm-6 memberships ">
+    <div class="col-md-6 memberships ">
         <img src="../images/bookingimg.jpg" alt="Hickory Hills Golf Club Memberships" class=>
         <h2 class="memberhead">2015 Membership Rates</h2><br>
         <p class="membertext">SINGLE $550.00</p><br>
@@ -89,18 +89,19 @@
         <p class="membertext">CART PASS SINGLE—–$525.00 Plus tax ($561.75)/Family (Mr. & Mrs.)—$825.00 plus tax ($882.75)</p><br>
       </div>
 
-      <div class="col-sm-6">
-        <form action="Memberships.html" method="post" >
-          <h3 class="hcontact">2015 Hickory Hills Membership</h3>
-          <label for="name">Name:</label>
+      <div class="col-md-4">
+        <form action="Memberships.html" method="post" class="memberform" >
+          <h3 class="hcontact">2015 Hickory Hills Membership Application</h3>
+          <label for="name" class="memberlable">Name:</label>
             <input type="text" class="mbdd"><br>
-            <label for="address">Address:</label>
+            <label for="address" class="memberlable">Address:</label>
           <input type="text" name="user_address" class="mbdd"><br>
-          <label for="Phone">Phone:</label>
+          <label for="Phone" class="memberlable">Phone:</label>
           <input type="email" name="user_phone" class="mbdd"><br>
-            <label for="mail">Email:</label>
+            <label for="mail" class="memberlable">Email:</label>
           <input type="email" name="user_email" class="mbdd"><br>
 
+          <p class="selecttext">Seclect Your Membership Type</p>
           <select name="MembershipType" class="mbdd dropd">
 <option value="single">Single</option>
 <option value="SingleJ">Single Junior</option>
@@ -113,15 +114,37 @@
 <option value="College">College Pass</option>
 </select><br>
 
-
+<p class="selecttext">Select other options and add ons</p>
+<div class="membercheck">
 <input type="checkbox" id="GreenFeeS" value="GreenFeeS" name="GreenFeeS"><label class="light"  for"GreenFeeS">Greens Fee Single (weekday)</label><br><br>
 <input type="checkbox" id="GreenFeeF" value="GreenFeeF" name="GreenFeeF"><label class="light"  for="GreenFeeF">Greens Fee Family of 2 (weekday)</label><br><br>
 <input type="checkbox" id="Handicap" value="Handicap" name="Handicap"><label class="light"  for="Handicap">Handicap</label><br><br>
 <input type="checkbox" id="Locker" value="Locker" name="Locker"><label class="light"  for="Locker">Locker</label><br><br>
 <input type="checkbox" id="CartPS" value="CartPS" name="CartPS"><label class="light"  for="CartPS">Cart Pass Single</label><br><br>
 <input type="checkbox" id="CartPF" value="CartPF" name="CartPF" ><label class="light"  for="CartPF">Cart Pass Family</label><br><br>
+</div><br>
+<p class="submittext">Membership fees can be paid at the course. Paymemt plans can be secured with a valid Credit or Debit card</p> 
+
+<button type="submit" class="memberbutton">Submit</button>
+
 </form>
 
 </div>
+
+ <div class="col-md-2"></div> 
+
 </div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+  <script src="../bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+<footer class="footer">
+      <a href= "http://www.facebook.com/HickoryHillsGolfClubInc">
+        <img src="../images/facebook.jpg" alt="facebook logo"></a>
+         <p>&copy; 2015 Andrew Schoenherr / Hickory Hills Golf Club</p>
+    </footer>
+
+</html>
 
